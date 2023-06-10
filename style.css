@@ -30,8 +30,6 @@ footer {
     background-color: black;
 } */
 
-
-
 body {
     background-color: #202124;
 }
@@ -63,27 +61,48 @@ header>a:hover {
     justify-content: space-between;
 } */
 
-/* .search {
-    margin-top: 320px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 0;
-    gap: 20px
-} */
-
 .form {
-    margin-top: 320px;
+    margin-top: 200px;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-grow: 0;
-    gap: 20px
+    gap: 20px;
+
 }
+
+/*
+    I was crazy once
+    A rubber room
+    They locked me in a room
+    A rubber room with rats
+    And rats make me go crazy
+    Crazy?
+    They locked me in a room
+    I was crazy once
+    A rubber room
+    And rats make me go crazy
+    A rubber room with rats
+    I was crazy once
+    Crazy?
+    They locked me in a room
+    They locked me in a room
+    A rubber room
+    A rubber room with rats
+    And rats make me go crazy
+    Crazy?
+    I was crazy once
+    A rubber room with rats
+    A rubber room
+    Crazy?
+    And rats make me go crazy
+}
+    */
+
+
+
 
 /* 
 .main-frame>input {
@@ -98,15 +117,35 @@ h1 {
     font-family: hermit;
 }
 
-input {
+.search {
+    display: flex;
+    align-items: center;
     width: 600px;
     height: 50px;
+    padding-left: 10px;
     border-style: solid;
     border-color: white;
     border-radius: 40px;
     border-width: 1px;
     background-color: #303134;
     color: white;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+input:active {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
@@ -124,6 +163,12 @@ button {
     display: flex;
     justify-content: ;
 } */
+
+svg {
+    width: 45px;
+    height: 45px;
+    color: white;
+}
 
 footer {
     height: 100px;
